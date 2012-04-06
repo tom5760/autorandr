@@ -2,5 +2,5 @@
 unbuffer udevadm monitor --udev --subsystem-match=drm \
     | unbuffer -p grep -e "change" | while read LINE
 do
-    autorandr --force -c
+    autorandr --force --change --default default
 done
