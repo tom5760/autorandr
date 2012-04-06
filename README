@@ -1,0 +1,2 @@
+The autorandr-monitor script requires the "unbuffer" command from the "expect"
+package.
